@@ -1,0 +1,64 @@
+div.flexcal
+{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    height: 350px;
+    width: 260px;
+}
+div
+{
+    text-align: center;
+    text-size-adjust:x-large;
+    border: 2px solid red;
+    margin: 10px;
+    padding-bottom: 20px;
+    background-color: gray;
+
+
+}
+.flex1
+{
+    grid-column-start: 1;
+    grid-column-end:  5;
+    text-align: right;
+    border-color: black;
+}
+.flex2
+{
+    border-color: black;
+}
+.flex3
+{
+    border-color: black;
+}
+.flex4
+{
+    border-color: black;
+}
+.flex5
+{
+    border-color: black;
+}
+.flex6
+{
+    border-color: black;
+}
+.flex7
+{
+    border-color: black;
+}
+.flex8
+{
+    border-color: black;
+}
+.flex9
+{
+    border-color: solid red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+.grid10
+{
+    border-color: black;
+}

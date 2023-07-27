@@ -1,0 +1,64 @@
+div.gridcal
+{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    height: 350px;
+    width: 260px;
+}
+div
+{
+    text-align: center;
+    text-size-adjust:x-large;
+    border: 2px solid red;
+    margin: 10px;
+    padding-bottom: 20px;
+    background-color: gray;
+
+
+}
+.grid1
+{
+    grid-column-start: 1;
+    grid-column-end:  5;
+    text-align: right;
+    border-color: black;
+}
+.grid2
+{
+    border-color: black;
+}
+.grid3
+{
+    border-color: black;
+}
+.grid4
+{
+    border-color: black;
+}
+.grid5
+{
+    border-color: black;
+}
+.grid6
+{
+    border-color: black;
+}
+.grid7
+{
+    border-color: black;
+}
+.grid8
+{
+    border-color: black;
+}
+.grid9
+{
+    border-color: solid red;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+.grid10
+{
+    border-color: black;
+}
